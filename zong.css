@@ -1,0 +1,441 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.top{
+	/*border-bottom:1px solid #fe6c00;
+	height:170px;*/
+	height:114px;
+	width:100%;
+	background:white;
+	z-index: 1;
+}
+.top-zhong{
+	width:1180px; 
+	height:114px;
+	margin:0 auto;
+}
+.top-shang{
+	width:1180px; 
+	height:32px;
+}
+.shang-right{
+	color:#9a9791;
+	float:right;
+	height:32px;
+	line-height: 32px;
+}
+.shang-right li{
+	float:left;
+	/*width:70px;*/
+	margin-right:10px;
+	font-size: 13px;
+}
+.top-jian{
+	width:1180px; 
+	height:82px;
+}
+.jian-zhong{
+	width:488px;
+	height:82px;
+	float:left;
+}
+.key{
+	width:400px;
+	height:34px;
+	border:2px solid #fe6c00;
+	 float:left;
+	/*margin-top:14px;*/
+}
+.sousuo{
+	height:38px;
+	width:82px;
+	border:2px solid #fe6c00;
+	color:#ffffff;
+	font-size:13px;
+    float:left;
+    background: #fe6c00;
+    /*margin-top:14px;*/
+}
+.zhong-bottom{
+	font-size:11px;
+	height:15px;
+	width:488px;
+	color:#9a9791;
+	margin-top:11px;
+	
+}
+.zhong-bottom li{
+	float:left;
+	width:56px;
+	text-align: center;
+	background: url(img/shuxian.jpg) no-repeat right center;
+}
+.jian-right{
+	height:40px;
+	width:264px;
+	float:right;
+	margin-top:14px;
+
+	font-size:12px;
+	color:#9a9791;
+}
+.jian-right div{
+	height:40px;
+	width:86px;
+	float:left;
+	border:1px solid #ebe5e5;
+	border-radius: 2px;
+	/*background: url(img/shuxian.jpg) no-repeat right center;*/
+}
+.jian-right1 img{
+	margin-left:34px;
+	margin-top:5px;
+}
+.jian-right1 p{
+	margin-top:3px;
+}
+.jian-right2 img{
+	margin-left:9px;
+	margin-top: 14px;
+}
+.zhong{
+	width:100%;
+	height:45px;
+	border-bottom:1px solid #fe6c00;
+}
+.top-bottom{
+	width:1180px;
+	margin:0 auto;
+	height:45px;
+	/*margin-top:9px;*/
+	line-height: 45px;
+	font-size:13px;
+	font-weight: 60;
+}
+.top-bottom li{
+	width:110px;
+	float:left;
+	text-align: center;
+}
+
+.first{
+	z-index: 1;
+	position: fixed;
+	top: 50px;
+	right:0;
+}
+.fir1{
+	width:45px;
+	height:100px;
+}
+.second{
+	z-index: 1;
+	position: fixed;
+	top: 160px;
+	right:0px;
+}
+.se1{
+	width:45px;
+	height:250px;
+}
+.third{
+	z-index: 1;
+	position: fixed;
+	top: 305px;
+	right:0;
+}
+.th1{
+	width:45px;
+	height:150px;
+	
+}
+.fourth{
+	z-index: 1;
+	position: fixed;
+	top: 465px;
+	right:0;
+}
+.fo1{
+	width:45px;
+	height:250px;
+}
+
+
+
+.bottom{
+	height:894px;
+	background: #f8f7f6;
+}
+.bottom-zhong{
+	width:1180px; 
+	height:894px;
+	margin:0 auto;
+}
+.zhong-shang{
+	width:1180px; 
+	height:550px;
+	background: white;
+}
+.gray{
+	width:25px; 
+	height:424px;
+	background:#4c4c4a;
+	color:red;
+	text-align:center;
+	font-size:13px;
+	float:left;
+}
+.gray div{
+	padding-top:26px;
+	margin-bottom:25px;
+}
+.list{
+	width:145px; 
+	height:424px;
+	font-size:11px;
+	float:left;
+}
+.list li{
+	float:left;
+	margin-left:12px;
+	margin-top:17px;
+}
+.shang-left{
+	width:170px; 
+	height:550px;
+	float:left;
+}
+.question{
+	width:170px; 
+	height:126px;
+	color:#855d38;
+	font-size:13px;
+}
+.question li{
+	height:42px;
+	width:164px;
+	margin-left:6px;
+}
+.question img{
+	float:left;
+	margin-right:8px;
+}
+.question p{
+	float:left;
+}
+.shang-zhong{
+	width:800px; 
+	height:550px;
+	border-right:1px solid #fe6c00;
+	float:left;
+}
+.pic{
+	width:800px; 
+	height:365px;
+	border-bottom:1px solid #fe6c00;
+	/*margin: 100px auto;*/
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 6400px;
+	position: absolute;
+	left: -800px;
+}
+.slide{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+.pic>span{
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	top: 150px;
+	line-height: 50px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 250px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #efeeec;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align:center;
+}
+.nav .active{
+	background:#fe6c00 ;
+}
+
+.pic1 li{
+	float:left;
+}
+.shang-you{
+	width:209px; 
+	height:550px;
+	float:left;
+}
+.laba{
+	width:209px; 
+	height:45px;
+	line-height: 45px;
+	border-bottom:1px solid #ebe5e5;
+	color:#fe6c00;
+	font-size:13px;
+}
+.laba img{
+	margin-left:22px;
+	margin-right:10px;
+	float:left;
+	margin-top:11px;
+}
+.laba p{
+	float:left;
+}
+.notice{
+	width:209px; 
+	height:320px;
+	border-bottom:1px solid #ebe5e5;
+	color:#fe6c00;
+	font-size:13px;
+	position: relative;
+	overflow: hidden;
+}
+.notice ul{
+	width:197px;
+	height: 696px;
+	position: absolute;
+	margin-left: 18px;
+	top: 0px;
+}
+.notice li{
+	width:197px;
+	height:29px;
+	line-height:29px;
+	overflow:hidden;
+}
+.chongzhi{
+	width:209px; 
+	height:183px;
+	font-size:13px;
+}
+.chong1{
+	width:209px; 
+	height:35px;
+	line-height: 35px;
+}
+.chong1 img{
+	float:left;
+	margin-top: 7px;
+	margin-left:17px;
+	margin-right:15px;
+}
+.chong1 p{
+	float:left;
+}
+.chong1 span{
+	color:#fe6c00;
+}
+.chong2{
+	width:180px; 
+	height:27px;
+	text-align: center;
+	background:#ff4d04; 
+	margin-left:17px;
+	color:white;
+	border-radius: 3px;
+}
+.num{
+	width:209px; 
+	height:18px;
+	margin-left:17px;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+.num select{
+	width:63px; 
+	float:left;
+	margin-right:7px;
+}
+
+.num. div{
+	width:63px; 
+	float:left;
+}
+#mintue{
+	color:#ff4d04;
+}
+.zhong-jian{
+	height:181px;
+}
+.zhong-jian div{
+	float:left;
+}
+.nu-list{
+	width:1012px; 
+	height:181px;
+	border-bottom:1px solid #ebe5e5;
+}
+.nu-list ul{
+	float:left;
+	margin-top: 15px;
+	margin-right: 70px;
+}
+.nu-list ul li{
+	font-size: 13px;
+	color:#666560;
+	margin-top:13px;
+}
+.bo1{
+	width:659px; 
+	height:22px;
+	margin-left: 263px;
+	margin-top: 15px;
+	font-size:13px;
+	color:#666560;
+	text-align: center;
+	line-height: 22px;
+}
+.bo1 li{
+	float:left;
+	width:68px;
+	background: url(img/shuxian.jpg) no-repeat right center;
+}
+.ying{
+	height:25px;
+	line-height: 25px;
+	color:#666560;
+	text-align: center;
+	font-size:11px;
+}
+.pic3{
+	margin-left:203px;
+	height:51px;
+}
+.pic3 li{
+	float:left;
+	margin-right: 7px;
+}
